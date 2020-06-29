@@ -1,0 +1,22 @@
+.text, .team{
+    text-align: center;
+}
+.text{
+    padding-bottom: 40px ;
+}
+.subhead{
+    font-size: 25px;
+}
+.subtext{
+    font-size: 16px;
+    width: 90%;
+    margin: auto;
+    color: rgba(128, 128, 128, 0.911);
+}
+.team{
+    padding-bottom: 10px ;
+}
+.team>h1{
+    margin-bottom: 8px !important;
+}
+

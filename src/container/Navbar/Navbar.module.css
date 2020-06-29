@@ -1,0 +1,11 @@
+.nav_link{
+    padding: 15px !important;
+    color:  #edf0f1 !important;
+    text-transform: capitalize;
+    font-size: 16px !important;
+    transition: all 0.3s ease 0s;
+}
+.nav_link:hover{
+    color: rgb(127, 64, 179) !important;
+    cursor: pointer;
+}
