@@ -1,5 +1,23 @@
+ul{
+    list-style-type: none;
+}
+li{
+    font-size: 16px;
+}
 .footer{
+    background: var(--mainDark);
+    padding: 3rem;
+    color:var(--mainWhite);
     text-align: center;
-    border-radius: 0 !important;
-    width: 100% !important;
+}
+.link,li{
+    color: var(--mainGrey);
+}
+.link:hover{
+    color:var(--mainLightGrey);
+}
+.text{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
 }

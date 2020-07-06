@@ -1,6 +1,9 @@
+.nav{
+    background: var(--mainDark) !important;
+}
 .nav_link{
     padding: 15px !important;
-    color:  #edf0f1 !important;
+    color:  var(--mainWhite) !important;
     text-transform: capitalize;
     font-size: 16px !important;
     transition: all 0.3s ease 0s;

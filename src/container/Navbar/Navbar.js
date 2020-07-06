@@ -6,7 +6,7 @@ import styles from "./Navbar.module.css";
 
 const Navbars = () => {
   return (
-    <Navbar collapseOnSelect bg="dark" variant="dark" fixed="top" expand="lg">
+    <Navbar collapseOnSelect  variant="dark" fixed="top" expand="lg" className={styles.nav}>
       <Navbar.Brand href="#home">Virus</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
@@ -19,7 +19,7 @@ const Navbars = () => {
             offset={-70}
             duration={500}
             className={styles.nav_link}
-          >
+          ><i class="fas fa-home"></i>&nbsp;
             Home
           </Link>
           <Link
@@ -46,14 +46,14 @@ const Navbars = () => {
           </Link>
           <Link
             activeClass="active"
-            to="team"
+            to="about"
             spy={true}
             smooth={true}
             offset={-70}
             duration={500}
             className={styles.nav_link}
           >
-            Team
+            About Us
           </Link>
         </Nav>
         <Nav>
