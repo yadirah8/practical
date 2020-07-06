@@ -17,6 +17,12 @@
   top: 50% !important;
   width: 40%;
 }
+.heading{
+  font-weight: bold;
+}
+.desc{
+  font-size: 18px;
+}
 .button {
   border-radius: 30px !important;
   background: #007EA7 !important;

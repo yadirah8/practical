@@ -1,11 +1,14 @@
-.text, .team{
+.features{
+    margin-top: 10px;
+}
+.text, .feature{
     text-align: center;
 }
 .text{
     padding-bottom: 40px ;
 }
-.subhead{
-    font-size: 25px;
+.heading{
+    font-weight: bold;
 }
 .subtext{
     font-size: 16px;
@@ -13,10 +16,10 @@
     margin: auto;
     color: rgba(128, 128, 128, 0.911);
 }
-.team{
+.feature{
     padding-bottom: 10px ;
 }
-.team>h1{
+.feature>h1{
     margin-bottom: 8px !important;
 }
 

@@ -6,6 +6,6 @@
     transition: all 0.3s ease 0s;
 }
 .nav_link:hover{
-    color: rgb(127, 64, 179) !important;
+    color: #007EA7 !important;
     cursor: pointer;
 }

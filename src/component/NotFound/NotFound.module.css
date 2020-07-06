@@ -1,0 +1,16 @@
+.error{
+    padding: 40px 15px;
+    text-align: center;
+color: red;
+}
+.action{
+    margin-top: 15px;
+    margin-bottom: 15px;
+   
+}
+.detail{
+    color: black;
+}
+.button{
+    margin-right: 10px;
+}

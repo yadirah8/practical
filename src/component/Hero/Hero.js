@@ -9,8 +9,8 @@ const Hero = () => {
     <Jumbotron fluid className={styles.jumbotron} id="home">
         <Navbars/>
         <div className={styles.text}>
-      <h1>Hello, world!</h1>
-      <p>
+      <h1 className={styles.heading}>Hello, world!</h1>
+      <p className={styles.desc}>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos cumque delectus ratione perferendis cum accusamus autem ex assumenda, consequuntur vitae maiores porro vero? Inventore dolorum alias, dolorem veniam hic provident.
       </p>
       <p>
